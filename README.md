@@ -4,13 +4,14 @@ The work done in this repository was inspired by the work previously done in **[
 
 ## Overview
 
-This is a *remix* of **[github-corners](https://github.com/tholman/github-corners)**. I didn't think it would fit well as modifications made to a fork. So this repository was created.
+This is a *remix* of **[github-corners](https://github.com/tholman/github-corners)**. I didn't think it would fit well as modifications made to a fork. So this repository was created instead.
 
 I wanted to use PHP because:
 
 * PHP is *fun*
 * I wanted to create a reusable module that could be configured as needed.
-* Uses less lines of code than JavaScript
+* Uses less lines of code than JavaScript.
+* Fits well with my other PHP projects. For example, like [here](<http://webexperiment.info/portfolio/wtmdpdf/>).
 
 ## Details
 
@@ -99,3 +100,6 @@ If you want the icon to "stick" to the top and not scroll with the content try t
     ?>
 </div>
 ```
+
+---
+<img src="http://webexperiment.info/extcounter/mdcount.php?id=ghcphp">
