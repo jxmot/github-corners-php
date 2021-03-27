@@ -1,10 +1,10 @@
 # GitHub Corners - PHP Version
 
-The work done in this repository was inspired by the work previously done in **[github-conrers](https://github.com/tholman/github-corners)** by [Tim Holman](https://tholman.com/).
+The work done in this repository was inspired by the work previously done in **[github-corners](https://github.com/tholman/github-corners)** by [Tim Holman](https://tholman.com/).
 
 ## Overview
 
-This is a *remix* of **[github-conrers](https://github.com/tholman/github-corners)**. I didn't think it would fit well as modifications made to a fork. So this repository was created.
+This is a *remix* of **[github-corners](https://github.com/tholman/github-corners)**. I didn't think it would fit well as modifications made to a fork. So this repository was created.
 
 I wanted to use PHP because:
 
@@ -21,7 +21,7 @@ The following settings are configurable:
 * foreground color - same as background color settings
 * CSS file - just in case individual CSS files are needed
 * target repository - where the link goes
-* link title - mouse-over text, **cannont** contain any commas
+* link title - mouse-over text, **cannot** contain any commas
 
 A configuration text file would contain:
 
