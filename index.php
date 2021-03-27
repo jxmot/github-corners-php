@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>DEMO &middot; GitHub Corners - PHP Version</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="GitHub Corners - PHP Version: A configurable githubcorners icon written with PHP.">
+<meta name="description" content="GitHub Corners - PHP Version: A configurable github-corners icon written with PHP.">
 <meta name="author" content="https://github.com/jxmot">
 <style>
 .outer {
@@ -32,6 +32,17 @@ $_SESSION['ghccolor'] = 'black';
 require './githubcorner.php'; 
 ?>
     </div>
+
+    <div style="position:fixed;left:0;top:0;">
+<?php
+$_SESSION['ghcside'] = 'left'; 
+$_SESSION['ghcfill'] = 'black'; 
+$_SESSION['ghccolor'] = 'grey'; 
+require './githubcorner.php'; 
+?>
+    </div>
+
+
     <h2 style="text-align:center;">
         DEMO - GitHub Corners - PHP Version
     </h2>
