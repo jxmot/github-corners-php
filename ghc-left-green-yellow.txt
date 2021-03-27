@@ -1,0 +1,1 @@
+./githubcorner.css,left,green,yellow,https://github.com/jxmot/github-corners-php,View source on GitHub
