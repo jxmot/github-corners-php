@@ -102,4 +102,4 @@ If you want the icon to "stick" to the top and not scroll with the content try t
 ```
 
 ---
-<img src="http://webexperiment.info/extcounter/mdcount.php?id=ghcphp">
+<img src="http://webexperiment.info/extcounter/mdcount.php?id=github-corners-php">
