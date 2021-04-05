@@ -65,6 +65,8 @@ require './githubcorner.php';
             <pre style=""><code><strong>
     ./githubcorner.css,right,black,white,https://github.com/jxmot/github-corners-php,View source on GitHub
             </strong></code></pre>
+            <br>
+            Here is an example of you would use the text file above and display the icon in a chosen corner:
         </p>
     </div>
     <div style="width:50%;margin: 0 auto;overflow: auto;border: 1px solid black;">
@@ -72,8 +74,7 @@ require './githubcorner.php';
     &lt;div class="outer"&gt;
         &lt;div class="box"&gt;
             &lt;?php
-                // configuration file
-                $_SESSION['ghccfg'] = './githubcorner.txt'; 
+                // githubcorner.txt is the default configuration file
                 require './githubcorner.php'; 
             ?&gt;
         &lt;/div&gt;
@@ -81,26 +82,42 @@ require './githubcorner.php';
         </strong></code></pre>
     </div>
     <br>
-    <br>
-    <br>
-    <h3 style="text-align:center;">
-        GitHub Corners PHP - Examples
-    </h3>
     <!--
         Render it in the corner of a <div>, change some 
         of the settings for each...
     -->
-    <h4 style="text-align:center;">githubcorner.txt</h4>
+    <h4 style="text-align:center;">using githubcorner.txt</h4>
     <div class="outer">
         <div class="box">
 <?php
-$_SESSION['ghccfg'] = './githubcorner.txt'; 
 require './githubcorner.php'; 
 ?>
         </div>
     </div>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <h3 style="text-align:center;">
+        GitHub Corners PHP - Additional Examples
+    </h3>
+    <br>
+    <p>
+        <div style="width:50%;margin: 0 auto;overflow: auto;border: 1px solid black;">
+            <pre style=""><code><strong>
+    &lt;div class="outer"&gt;
+        &lt;div class="box"&gt;
+            &lt;?php
+                // specify a different config file
+                $_SESSION['ghccfg'] = './ghc-right-grey-orange.txt'; 
+                require './githubcorner.php'; 
+            ?&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+            </strong></code></pre>
+        </div>
+    </p>
     <br>
     <h4 style="text-align:center;">ghc-right-grey-orange.txt</h4>
     <div class="outer">
